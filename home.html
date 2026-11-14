@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+        header{
+            background: rgb(125, 125, 183);
+            color: aliceblue;
+            padding: 25px 30px;
+            text-align: center;
+            gap: 15px;
+            display: flex;
+            justify-content: flex-start;
+
+        }
+        .header2{
+            background: rgb(125, 125, 183);
+            padding: 25px 30px;
+            text-align: center;
+        }
+        nav{
+            background: black;
+            padding: 15px;
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        section{
+            background: lightblue;
+            padding: 20px;
+            margin-bottom: 15px;
+            border: 10px solid steelblue;
+        }
+        footer,article{
+            background: lightcyan;
+            padding: 20px;
+        }
+        .logo{
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <main>
+        <header>
+            <img src="pic/hacker.jpg"
+            alt="My logo"
+            class="logo">
+            <h1>This is home page</h1>
+        </header>
+        <section class="header2">
+            <h3>Lidmate customer infinity tech!</h3>
+            <p>We are trying to adress all html basic principles in this web sample for an html.</p>
+            <p>Here you can log in to explore more contents</p>
+            <nav>
+                <a href="login.html">Login</a>
+            </nav>
+            <p>Explore for more tips</p>
+        </section>
+        <section>
+            <p>Table of schedule for our service</p>
+            <h4>Table 1.0</h4>
+            <table>
+                <caption>Work schedule</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Day</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Service</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>08:00 am</td>
+                        <td>Entertainment</td>
+                    </tr>
+                    <tr>
+                        <td>Wednsday</td>
+                        <td>05:45</td>
+                        <td>Movie</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>09:00</td>
+                        <td>Talk Show</td>
+                    </tr>
+                </tbody>
+               <tfoot>
+                <tr>
+                    <td scope="row" colspan="2">Number of other services</td>
+                     <td>10</td>
+                </tr>
+               </tfoot>
+            </table>
+        </section>
+    </main>
+    <article>NEWS! We are hiring new web developers in fullstack aspect If you are capable and you have a skill you can <a href="login.html">apply. GOOD lUCK</a> here.</article><br><br>
+    <footer>
+        @<i class="fa fa-copyright" aria-hidden="true">All rights are only reserved for owners by law.</i>
+    </footer>
+</body>
+</html>
